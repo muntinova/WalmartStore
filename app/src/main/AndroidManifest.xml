@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WalmartStore">
         <activity
+            android:name=".ElectronicDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ElectronicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShoppingCategoryActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

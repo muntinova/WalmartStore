@@ -13,6 +13,7 @@
     <string name="signBtn">Sign in</string>
     <string name="signUpText">"-------  Don't have an account ?  -------"</string>
     <string name="signUp">Create a new account</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
 
 
 </resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="20dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="303dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:background="@android:color/black"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/walmart_logo" />
+
+        <TextView
+            android:id="@+id/register_title"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Create your account"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:paddingTop="10dp"
+            android:text="* required field"
+            android:textSize="14dp" />
+
+
+        <TextView
+            android:id="@+id/tv_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AEAEAE"
+            android:text=" First name *"
+            android:textSize="7pt" />
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AEAEAE"
+            android:text=" Last name *"
+            android:textSize="7pt" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tv_email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AEAEAE"
+            android:text="  Email address *"
+            android:textSize="7pt" />
+
+        <EditText
+            android:id="@+id/edit_email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+           <TextView
+            android:id="@+id/tv_password_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#AEAEAE"
+            android:text="  Password *"
+            android:textSize="7pt" />
+
+        <EditText
+            android:id="@+id/edit_password_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btn_signIn_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0065ff"
+            android:backgroundTintMode="add"
+            android:text="Create Account"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

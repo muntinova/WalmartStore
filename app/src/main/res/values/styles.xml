@@ -7,14 +7,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
     <style name="insideBox">
         <item name="android:layout_marginLeft">30dp</item>
         <item name="android:layout_marginRight">30dp</item>
     </style>
-
-    <style name="formStyle" parent="insideBox">
-        <item name="android:paddingLeft">10dp</item>
-        <item name="android:paddingRight">0dp</item>
+    <style name="insideBox1">
+        <item name="android:background">@color/colorAccent</item>
+    </style>
+    <style name="Button.White" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/white</item>
     </style>
 </resources>
